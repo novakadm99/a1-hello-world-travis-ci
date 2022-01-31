@@ -1,0 +1,7 @@
+language: c
+jobs:
+  include:
+    - stage: HelloWorld Compilation
+      script:
+        - make HelloWorld
+        - ./HelloWorld
